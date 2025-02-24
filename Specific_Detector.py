@@ -5,8 +5,8 @@ from telegram.ext import MessageHandler, Filters
 from selenium import webdriver
 from apscheduler.schedulers.blocking import BlockingScheduler
 
-token = '5749030885:AAF6slWpaVp42caVUTPHKEIQg1hCdY_XIro'
-id = '5680930767'
+token = ''
+id = ''
 date = '20221214'
 mobile_url = "https://m.cgv.co.kr/WebApp/Reservation/Schedule.aspx?tc=0013&rc=01&ymd=&fst=&fet=&fsrc="
 updater = Updater(token=token, use_context=True)
